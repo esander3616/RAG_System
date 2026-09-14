@@ -1,0 +1,185 @@
+================================================================
+  Multi-Agent RAG System — Enterprise Documentation Assistant
+================================================================
+Ask about company policy, company data, or both.
+Commands: 'summary' for token usage, 'exit' to quit.
+
+You: [ManagerAgent] tokens: in=213 out=3 cost=$0.000004
+[QualitativeAgent] tokens: in=187 out=112 cost=$0.000012
+
+[QUALITATIVE]
+Assistant: Based on the provided documents, the Information Security Policy establishes the minimum security standards for protecting company systems, data, and customer information. It applies to all employees, contractors, and third parties with access to company systems, regardless of location or device. 
+
+Additionally, the policy states that company systems are provided for business purposes, employees have no expectation of privacy when using them, all activity may be logged and reviewed for security and compliance purposes, and installing unapproved software on company devices requires prior approval from IT.
+
+*(Source: security_policy.md)*
+
+You: [ManagerAgent] tokens: in=209 out=3 cost=$0.000004
+[QualitativeAgent] tokens: in=222 out=185 cost=$0.000018
+
+[QUALITATIVE]
+Assistant: Based on the provided context (`code_review_policy.md`), the code review process works as follows:
+
+* **Purpose:** Code reviews exist to catch defects before they reach production, maintain a consistent standard of quality across the codebase, and spread system knowledge across the team. Every change to a shared repository must go through this process before merging.
+* **Evaluation Dimensions:** A reviewer evaluates a pull request based on five dimensions:
+  1. **Functionality:** Does the code do what it claims to do?
+  2. **Complexity:** Could this be simpler?
+  3. **Test coverage:** Are the changes adequately tested?
+  4. **Readability:** Would another engineer understand this code six months from now?
+  5. **Naming:** Are variables, functions, and classes named clearly?
+* **Feedback:** Reviewers should leave specific, actionable comments rather than vague objections.
+
+You: [ManagerAgent] tokens: in=211 out=3 cost=$0.000004
+[QualitativeAgent] tokens: in=225 out=159 cost=$0.000016
+
+[QUALITATIVE]
+Assistant: Based on the provided context (`customer_complaint_policy.md`), customer complaints are handled in the following ways:
+
+* **Submission:** Customers may submit complaints by email, phone, or live chat.
+* **Logging:** Every complaint must be logged in the customer relationship management (CRM) system within 24 hours of receipt. The log must include the customer's account details, a description of the issue, and the reception channel.
+* **Resolution and Closure:** A complaint remains open until the customer confirms the issue is resolved, or until the customer fails to respond to two follow-up attempts over five business days.
+* **Review:** All resolved complaints are reviewed weekly by the customer success team to identify recurring issues that may point to broader product or process problems.
+
+You: [ManagerAgent] tokens: in=209 out=3 cost=$0.000004
+[QuantitativeAgent] tokens: in=493 out=27 cost=$0.000011
+[QuantitativeAgent] tokens: in=860 out=123 cost=$0.000025
+
+[QUANTITATIVE]
+Assistant: Monthly revenue generally fluctuates between $1.1 million and $1.6 million across the observed period from October 2024 through September 2026. The lowest recorded monthly revenue occurred in March 2025 at $1,119,265.02, while the highest peak was reached in October 2025 with $1,633,940.18. Overall, revenue shows strong performance during the autumn and winter months, particularly peaking near the end of both 2025 and 2026.
+
+You: [ManagerAgent] tokens: in=212 out=3 cost=$0.000004
+[QuantitativeAgent] tokens: in=496 out=18 cost=$0.000011
+[QuantitativeAgent] tokens: in=90 out=45 cost=$0.000005
+
+[QUANTITATIVE]
+Assistant: Our current customer churn rate stands at 18.2%. This means that roughly 1 out of every 5 customers has stopped using our services. Monitoring this metric closely can help us identify areas for improving customer retention.
+
+You: [ManagerAgent] tokens: in=210 out=3 cost=$0.000004
+[QuantitativeAgent] tokens: in=494 out=65 cost=$0.000014
+[QuantitativeAgent] tokens: in=260 out=113 cost=$0.000013
+
+[QUANTITATIVE]
+Assistant: In Q4, North America led all regions by generating $4,072,665.81 in revenue, selling 19,838 units, and acquiring 307 new customers. EMEA followed as the second-strongest region with $2,421,290.19 in revenue and 13,172 units sold, while LATAM recorded the lowest performance with $610,645.74 in revenue and 5,080 units sold.
+
+You: [ManagerAgent] tokens: in=220 out=2 cost=$0.000004
+[QualitativeAgent] tokens: in=179 out=120 cost=$0.000012
+[QuantitativeAgent] tokens: in=645 out=21 cost=$0.000014
+[QuantitativeAgent] tokens: in=96 out=55 cost=$0.000006
+[ManagerAgent] tokens: in=248 out=132 cost=$0.000015
+
+[COMPLEX]
+(SQL: SELECT 'Based on the provided context, there is no information regarding industry standards for employee satisfaction.' AS answer)
+Assistant: Based on the available records and data, there is currently no information available regarding our employee satisfaction levels, nor is there data on industry standards to compare them against. 
+
+Additionally, while the company has established specific guidelines—such as the **Customer Complaint Handling Policy**, the **Security Policy** (which governs system usage, privacy expectations, activity logging, and software installation), and the **Expense Report Policy** (which outlines business expense reimbursements and required approvals)—the current data and policies do not contain details connecting these guidelines to employee satisfaction. 
+
+Further data collection and evaluation are needed to properly assess our satisfaction standing and determine how workplace policies might influence it.
+
+You: [ManagerAgent] tokens: in=218 out=2 cost=$0.000004
+[QualitativeAgent] tokens: in=205 out=63 cost=$0.000009
+[QuantitativeAgent] tokens: in=586 out=48 cost=$0.000015
+[QuantitativeAgent] tokens: in=264 out=130 cost=$0.000015
+[ManagerAgent] tokens: in=264 out=183 cost=$0.000019
+
+[COMPLEX]
+(SQL: SELECT region, SUM(revenue) AS total_revenue, SUM(units_sold) AS total_units, SUM(new_customers) AS total_new_customers FROM monthly_sales GROUP BY region ORDER BY total_revenue DESC)
+Assistant: Based on an analysis of our sales performance and current policies, North America leads our sales significantly by generating $14.59 million in revenue and bringing in 1,280 new customers. In contrast, Latin America lags far behind at just $2.40 million in revenue and 229 new customers, alongside weaker unit sales in regions like EMEA (48,131 units) and LATAM (20,340 units). 
+
+While company policy currently mandates a weekly review of resolved complaints by the customer success team, it does not provide further details on broader customer success strategies. To bridge the performance gap, we recommend leveraging our customer success resources to emulate the successful strategies used in North America across our weaker regions (EMEA and LATAM). Furthermore, we should implement targeted retention and onboarding programs in APAC and LATAM to directly boost their lagging acquisition numbers.
+
+You: [ManagerAgent] tokens: in=234 out=2 cost=$0.000005
+[QualitativeAgent] tokens: in=257 out=73 cost=$0.000010
+[QuantitativeAgent] tokens: in=612 out=18 cost=$0.000013
+[QuantitativeAgent] tokens: in=104 out=59 cost=$0.000006
+[ManagerAgent] tokens: in=219 out=115 cost=$0.000013
+
+[COMPLEX]
+(SQL: SELECT AVG(turnaround_hours) <= 48 FROM code_review_tickets)
+Assistant: Based on our documented code review process and the ticketing data, our current turnaround times are **not** meeting the standard we committed to. 
+
+According to the `code_review_policy.md`, our standard commitment requires reviewers to provide initial feedback on a pull request within **48 hours (2 business days)** of submission. However, the ticketing data shows that our current average turnaround time exceeds this 48-hour threshold (indicated by an average result of 0), demonstrating that our review processes currently fall short of our documented commitments and need to be accelerated.
+
+You: [ManagerAgent] tokens: in=231 out=2 cost=$0.000004
+[QualitativeAgent] tokens: in=248 out=186 cost=$0.000019
+[QuantitativeAgent] tokens: in=722 out=48 cost=$0.000017
+[QuantitativeAgent] tokens: in=92 out=37 cost=$0.000004
+[ManagerAgent] tokens: in=307 out=128 cost=$0.000015
+
+[COMPLEX]
+(SQL: SELECT COUNT(*) FROM expense_requests WHERE amount > 500 AND submitted_date >= '2026-04-01' AND submitted_date <= '2026-06-30')
+Assistant: Under company policy, any single expense request of $500 or less may be automatically approved by the finance system without additional review, provided it falls within a covered category and includes a valid receipt. However, any single expense request exceeding $500 requires review and approval (sign-off) by the employee's direct manager in the expense system before reimbursement can be processed. Expenses awaiting this manager sign-off are not considered approved and will not be included in the reimbursement batch for the next standard payroll cycle.
+
+Based on that threshold rule, there were **9** expense requests from last quarter that would have required manager approval.
+
+You: Goodbye.
+
+Session complete — 10 question(s) answered.
+
+Final tokenomics summary:
+
+=== Tokenomics Summary (35 calls) ===
+Total cost: $0.000369
+  QuantitativeAgent    calls=14  tokens=6621   cost=$0.000170
+  ManagerAgent         calls=14  tokens=3789   cost=$0.000104
+  QualitativeAgent     calls=7   tokens=2421   cost=$0.000096
+
+Most tokens consumed: QuantitativeAgent
+
+
+
+
+
+
+TESTING QUESTIONS FOR BETTER RESPONSE:
+(venv) du_353693-1787845397@U-2K36QO6LLWU1U:~/Desktop/DAI_Bootcamp/pythonFold/RAG_System$ python main.py
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights: 100%|█████████████████████| 103/103 [00:00<00:00, 6566.85it/s]
+================================================================
+  Multi-Agent RAG System — Enterprise Documentation Assistant
+================================================================
+Ask about company policy, company data, or both.
+Commands: 'summary' for token usage, 'exit' to quit.
+
+You: How does our employee satisfaction compare to industry standards and what policies might impact this?
+[ManagerAgent] tokens: in=220 out=2 cost=$0.000004
+[QualitativeAgent] tokens: in=179 out=139 cost=$0.000014
+[QuantitativeAgent] tokens: in=808 out=17 cost=$0.000016
+[QuantitativeAgent] tokens: in=102 out=78 cost=$0.000008
+[ManagerAgent] tokens: in=290 out=196 cost=$0.000020
+
+[COMPLEX]
+(SQL: SELECT AVG(satisfaction_score) FROM employees WHERE is_active = 1)
+Assistant: Our current employee satisfaction score sits at an average of 3.74 out of 5, which serves as a baseline for comparison against broader industry standards. (Note: The provided context does not contain specific data to directly compare this 3.74 rating against external industry standards.) 
+
+Regarding workplace policies, while specific internal documents currently on file outline a **Customer Complaint Handling Policy**, a **Security Policy** (governing system usage, privacy expectations, activity logging, and software installation approvals), and an **Expense Report Policy**, none of these specific policies directly address employee satisfaction. 
+
+However, to better understand and improve the current 3.74 rating, leadership should review and potentially introduce workplace policies related to areas that directly impact engagement and satisfaction, such as remote work flexibility, professional development, and compensation structures. Implementing more targeted support and clear policies in these areas could help drive higher satisfaction and help the company align more favorably with broader industry standards moving forward.
+
+You: Based on our documented code review process, are our current code review turnaround times meeting the standard we've committed to?
+[ManagerAgent] tokens: in=228 out=2 cost=$0.000004
+[QualitativeAgent] tokens: in=251 out=63 cost=$0.000009
+[QuantitativeAgent] tokens: in=740 out=27 cost=$0.000016
+[QuantitativeAgent] tokens: in=109 out=40 cost=$0.000005
+[ManagerAgent] tokens: in=184 out=101 cost=$0.000011
+
+[COMPLEX]
+(SQL: SELECT AVG(turnaround_hours) AS average_turnaround_hours FROM code_review_tickets WHERE status = 'Closed')
+Assistant: Based on our documented code review process, our current turnaround times are **not** meeting the standard we have committed to. 
+
+According to our `code_review_policy.md`, our standard commitment is to provide initial feedback within **48 hours (or 2 business days)**. However, our current code review turnaround time is averaging **58.4 hours**. This significantly exceeds our documented process standards, meaning reviews are currently taking more than twice as long to complete as our committed timeframe.
+
+You: exit
+Goodbye.
+
+Session complete — 2 question(s) answered.
+
+Final tokenomics summary:
+
+=== Tokenomics Summary (10 calls) ===
+Total cost: $0.000108
+  QuantitativeAgent    calls=4   tokens=1921   cost=$0.000045
+  ManagerAgent         calls=4   tokens=1223   cost=$0.000040
+  QualitativeAgent     calls=2   tokens=632    cost=$0.000023
+
+Most tokens consumed: QuantitativeAgent
+(venv) du_353693-1787845397@U-2K36QO6LLWU1U:~/Desktop/DAI_Bootcamp/pythonFold/RAG_System$ 

@@ -1,0 +1,8 @@
+venv/
+capstone_enterprise.db
+tokenomics_log.csv
+chroma_db/
+.env
+__pycache__/
+*.pyc
+.DS_Store
