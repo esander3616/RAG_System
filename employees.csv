@@ -1,0 +1,221 @@
+employee_id,department,region,hire_date,satisfaction_score,is_active
+1,Sales,North America,2024-11-02,3.6,1
+2,Sales,North America,2025-12-10,3.6,1
+3,Marketing,EMEA,2024-04-10,3.7,1
+4,Finance,LATAM,2026-06-17,3.9,1
+5,Engineering,EMEA,2022-08-10,3.3,0
+6,Engineering,EMEA,2026-02-05,3.8,1
+7,Engineering,APAC,2020-01-30,3.9,1
+8,Engineering,North America,2022-04-21,3.6,1
+9,Engineering,North America,2021-09-25,4.0,1
+10,Customer Support,North America,2026-01-04,3.3,1
+11,Sales,North America,2024-06-15,4.5,1
+12,Sales,APAC,2025-05-30,3.5,1
+13,Customer Support,EMEA,2023-06-10,3.3,1
+14,Finance,North America,2021-07-19,4.0,1
+15,Customer Support,APAC,2025-01-03,1.9,1
+16,Marketing,North America,2025-09-13,3.7,1
+17,Engineering,EMEA,2020-08-01,4.1,1
+18,Marketing,North America,2021-01-08,5.0,1
+19,Sales,EMEA,2020-12-27,3.3,1
+20,Engineering,North America,2020-06-03,4.3,1
+21,Marketing,EMEA,2025-11-04,3.7,1
+22,Marketing,North America,2021-12-18,3.0,1
+23,Sales,North America,2025-10-23,4.1,1
+24,Engineering,EMEA,2025-10-13,4.6,1
+25,Customer Support,EMEA,2024-01-13,3.6,1
+26,Engineering,North America,2023-02-04,3.6,1
+27,Sales,North America,2026-07-28,4.2,1
+28,Engineering,APAC,2021-01-04,3.3,1
+29,Customer Support,EMEA,2026-07-15,3.5,1
+30,Marketing,North America,2022-03-07,5.0,1
+31,Sales,North America,2021-12-17,2.8,1
+32,Engineering,North America,2023-04-20,3.8,1
+33,Engineering,EMEA,2022-11-21,4.2,1
+34,Finance,EMEA,2024-12-18,3.7,0
+35,Customer Support,APAC,2023-10-23,2.2,0
+36,Sales,EMEA,2026-07-31,3.4,1
+37,Sales,North America,2024-04-16,2.8,1
+38,Marketing,EMEA,2022-07-30,4.0,1
+39,Sales,North America,2026-01-03,2.8,1
+40,Finance,North America,2021-01-15,4.9,1
+41,Customer Support,North America,2026-03-21,2.6,0
+42,Sales,North America,2026-06-07,3.2,1
+43,Marketing,EMEA,2022-02-17,4.2,1
+44,Engineering,APAC,2022-12-23,3.4,1
+45,Engineering,North America,2023-12-29,4.2,1
+46,Engineering,LATAM,2025-07-10,4.9,1
+47,Finance,EMEA,2020-06-22,3.0,1
+48,Sales,North America,2026-06-11,3.5,1
+49,Sales,LATAM,2025-09-24,3.6,1
+50,Engineering,EMEA,2020-08-09,4.6,1
+51,Sales,LATAM,2020-05-13,2.7,1
+52,Sales,EMEA,2021-12-16,2.6,1
+53,Engineering,EMEA,2023-07-16,4.4,1
+54,Engineering,North America,2026-07-07,4.3,1
+55,Sales,APAC,2022-02-05,3.6,1
+56,Engineering,EMEA,2023-11-06,4.3,1
+57,Sales,North America,2024-03-04,3.0,1
+58,Sales,EMEA,2026-05-29,3.5,1
+59,Customer Support,North America,2021-02-13,3.3,1
+60,Finance,EMEA,2024-04-09,3.6,1
+61,Finance,APAC,2025-04-21,5.0,1
+62,Engineering,EMEA,2025-10-18,4.4,1
+63,Engineering,EMEA,2022-10-24,3.4,1
+64,Customer Support,North America,2021-10-31,3.5,1
+65,Finance,EMEA,2021-01-29,3.4,1
+66,Engineering,North America,2026-04-14,4.6,1
+67,Finance,North America,2024-08-13,4.7,1
+68,HR,LATAM,2022-03-25,3.4,1
+69,Customer Support,EMEA,2023-03-11,3.7,1
+70,Customer Support,EMEA,2025-01-04,3.3,1
+71,Sales,North America,2021-08-16,3.9,1
+72,Customer Support,LATAM,2024-09-23,4.2,1
+73,Customer Support,APAC,2020-10-19,3.0,1
+74,Engineering,North America,2023-04-08,3.6,1
+75,Customer Support,North America,2024-12-27,2.6,1
+76,Marketing,APAC,2025-11-03,3.2,0
+77,Sales,North America,2020-04-04,3.4,1
+78,Engineering,North America,2020-11-23,4.3,1
+79,Sales,North America,2025-04-22,3.6,1
+80,Engineering,North America,2020-12-06,4.6,1
+81,Customer Support,North America,2024-05-15,3.1,1
+82,Engineering,North America,2021-06-01,5.0,1
+83,Finance,North America,2024-01-01,3.8,1
+84,Engineering,EMEA,2026-01-23,5.0,0
+85,Sales,North America,2026-01-17,3.8,1
+86,Customer Support,EMEA,2026-04-29,2.6,1
+87,Customer Support,EMEA,2023-11-23,2.5,1
+88,Engineering,North America,2023-06-15,4.4,1
+89,Engineering,North America,2020-01-01,4.0,1
+90,Finance,North America,2023-03-20,4.4,1
+91,Engineering,LATAM,2025-05-08,4.4,1
+92,Finance,APAC,2022-08-05,4.0,1
+93,Sales,North America,2026-04-15,2.9,1
+94,Engineering,APAC,2024-05-15,3.2,1
+95,Engineering,North America,2022-09-08,3.8,1
+96,Finance,EMEA,2023-01-18,4.5,1
+97,Customer Support,APAC,2024-08-18,3.2,1
+98,Engineering,North America,2021-03-28,3.4,1
+99,Customer Support,North America,2025-07-08,3.2,1
+100,Engineering,North America,2025-12-31,4.3,1
+101,Marketing,North America,2021-05-27,3.2,1
+102,Customer Support,North America,2021-09-09,3.2,1
+103,Engineering,EMEA,2025-08-03,4.1,0
+104,Sales,APAC,2023-09-14,2.7,1
+105,Finance,North America,2022-12-27,4.2,1
+106,Engineering,EMEA,2022-02-26,4.4,1
+107,Engineering,North America,2020-02-21,4.7,1
+108,Finance,North America,2024-12-19,4.6,1
+109,Marketing,North America,2021-01-19,2.9,1
+110,Marketing,EMEA,2023-07-02,3.1,0
+111,Engineering,APAC,2026-03-01,4.4,1
+112,Engineering,EMEA,2022-03-24,4.4,1
+113,Engineering,EMEA,2021-04-07,4.4,1
+114,Sales,North America,2023-02-04,5.0,1
+115,Sales,North America,2020-06-21,3.7,1
+116,Customer Support,EMEA,2021-09-26,3.8,1
+117,Engineering,North America,2021-01-09,4.7,1
+118,Engineering,LATAM,2020-09-02,4.5,1
+119,Customer Support,APAC,2021-03-15,2.9,1
+120,Engineering,LATAM,2023-11-23,4.6,1
+121,Sales,North America,2024-03-27,2.9,1
+122,Engineering,APAC,2025-06-10,4.0,1
+123,Customer Support,EMEA,2025-06-30,2.8,1
+124,Engineering,North America,2025-04-02,4.1,1
+125,Finance,LATAM,2026-03-21,5.0,1
+126,Sales,EMEA,2022-12-14,2.3,1
+127,Sales,APAC,2025-09-03,3.8,1
+128,Engineering,North America,2024-01-31,3.1,1
+129,Engineering,APAC,2026-01-16,3.8,1
+130,Engineering,EMEA,2026-03-08,4.8,1
+131,Engineering,EMEA,2023-08-12,4.1,1
+132,Sales,North America,2021-06-15,2.8,1
+133,Engineering,North America,2022-02-23,3.7,1
+134,Customer Support,APAC,2025-06-29,3.5,1
+135,Customer Support,North America,2024-02-09,2.7,1
+136,Customer Support,North America,2022-05-04,3.2,1
+137,Marketing,APAC,2025-04-01,3.7,1
+138,Engineering,EMEA,2024-08-30,3.7,1
+139,Finance,North America,2022-12-24,5.0,1
+140,Customer Support,APAC,2020-11-15,3.5,0
+141,Marketing,North America,2022-08-04,2.5,1
+142,Engineering,EMEA,2022-10-15,4.2,1
+143,Marketing,EMEA,2026-04-05,3.3,1
+144,Engineering,EMEA,2024-01-06,4.6,1
+145,Customer Support,EMEA,2021-03-02,2.6,1
+146,Engineering,EMEA,2023-10-14,4.0,1
+147,Sales,EMEA,2023-12-14,3.7,0
+148,Customer Support,LATAM,2024-03-02,3.6,1
+149,Customer Support,APAC,2023-08-17,2.4,1
+150,Customer Support,North America,2026-03-03,2.9,0
+151,Engineering,LATAM,2025-01-06,3.8,0
+152,Engineering,North America,2023-03-11,3.7,1
+153,Sales,LATAM,2023-05-21,4.5,1
+154,Marketing,North America,2023-07-13,3.9,1
+155,Finance,EMEA,2023-02-04,3.2,0
+156,Sales,EMEA,2026-05-30,4.0,1
+157,Engineering,North America,2021-07-20,5.0,1
+158,HR,North America,2022-11-15,4.5,1
+159,Engineering,North America,2022-06-09,3.2,1
+160,Customer Support,APAC,2021-12-09,2.8,1
+161,HR,APAC,2021-01-25,4.7,1
+162,Engineering,APAC,2026-06-18,3.7,1
+163,Finance,LATAM,2023-10-01,4.3,1
+164,Finance,EMEA,2021-05-08,4.5,1
+165,Engineering,EMEA,2020-02-16,3.5,1
+166,Customer Support,North America,2025-11-17,3.1,1
+167,Sales,North America,2025-08-19,1.5,1
+168,Engineering,EMEA,2024-05-28,3.5,0
+169,Finance,EMEA,2021-01-03,3.8,1
+170,Engineering,North America,2021-06-25,3.4,1
+171,Sales,APAC,2026-02-23,4.4,1
+172,Engineering,EMEA,2021-06-18,3.2,1
+173,Sales,North America,2024-06-07,3.1,1
+174,Engineering,EMEA,2025-11-17,4.2,1
+175,Engineering,APAC,2023-08-17,5.0,1
+176,Customer Support,North America,2024-08-21,2.2,1
+177,Engineering,North America,2020-04-09,4.8,1
+178,Engineering,North America,2024-12-16,4.1,1
+179,Sales,LATAM,2022-08-14,2.8,1
+180,Sales,APAC,2020-12-17,3.7,1
+181,Engineering,LATAM,2021-08-27,4.2,1
+182,Finance,North America,2021-03-31,3.6,1
+183,Sales,North America,2026-01-12,3.4,1
+184,Sales,APAC,2026-02-25,3.2,1
+185,Customer Support,North America,2020-03-16,3.2,1
+186,HR,EMEA,2022-11-12,4.3,1
+187,Engineering,APAC,2023-01-16,5.0,1
+188,Customer Support,North America,2024-05-10,2.4,1
+189,Customer Support,LATAM,2024-01-15,4.4,1
+190,Engineering,APAC,2024-05-02,2.9,1
+191,Sales,LATAM,2021-02-11,3.3,0
+192,Sales,EMEA,2020-12-26,3.8,1
+193,Sales,EMEA,2020-03-29,3.6,1
+194,Marketing,North America,2025-06-29,3.3,1
+195,Engineering,North America,2023-12-12,4.0,1
+196,Engineering,LATAM,2025-08-15,3.8,1
+197,Engineering,North America,2024-05-04,3.7,1
+198,Finance,North America,2026-03-23,4.5,0
+199,Engineering,North America,2024-05-28,4.3,1
+200,Engineering,North America,2022-07-20,3.7,1
+201,Customer Support,EMEA,2023-07-03,3.6,0
+202,Engineering,EMEA,2022-04-26,4.3,1
+203,Customer Support,EMEA,2022-04-08,3.6,1
+204,Engineering,APAC,2025-11-15,4.5,0
+205,Sales,LATAM,2021-08-17,2.9,1
+206,Customer Support,North America,2020-10-04,2.8,1
+207,Marketing,North America,2023-07-24,4.1,1
+208,Engineering,North America,2023-07-29,4.5,1
+209,Sales,EMEA,2024-12-19,3.4,1
+210,Finance,EMEA,2023-01-26,4.1,1
+211,Engineering,North America,2020-04-17,4.9,1
+212,Customer Support,North America,2026-05-11,2.7,1
+213,Customer Support,North America,2020-04-16,3.4,1
+214,Customer Support,EMEA,2025-08-19,3.0,1
+215,Sales,EMEA,2022-01-23,3.3,1
+216,Sales,North America,2022-03-02,4.1,1
+217,Sales,LATAM,2023-01-10,3.9,0
+218,Engineering,EMEA,2022-04-10,4.6,1
+219,Engineering,LATAM,2024-12-04,4.9,1
+220,Sales,North America,2025-02-17,3.4,1

@@ -1,0 +1,501 @@
+request_id,employee_id,department,submitted_date,amount,category,status
+1,123,Customer Support,2026-04-11,302.46,Client Entertainment,Approved
+2,95,Engineering,2026-07-27,106.74,Training/Conferences,Approved
+3,11,Sales,2025-11-04,359.12,Software/Subscriptions,Approved
+4,149,Customer Support,2025-01-04,160.2,Travel,Approved
+5,177,Engineering,2024-10-29,266.07,Travel,Approved
+6,218,Engineering,2025-12-07,66.36,Software/Subscriptions,Approved
+7,102,Customer Support,2026-03-04,37.2,Travel,Approved
+8,33,Engineering,2026-05-10,225.71,Software/Subscriptions,Rejected
+9,209,Sales,2026-05-03,450.96,Training/Conferences,Approved
+10,166,Customer Support,2025-08-03,379.93,Travel,Approved
+11,187,Engineering,2025-10-22,130.15,Travel,Approved
+12,163,Finance,2025-10-05,83.15,Travel,Approved
+13,114,Sales,2024-12-03,75.48,Travel,Approved
+14,21,Marketing,2026-03-23,274.92,Software/Subscriptions,Pending
+15,72,Customer Support,2026-07-14,219.64,Client Entertainment,Rejected
+16,134,Customer Support,2025-12-01,82.12,Office Equipment,Approved
+17,199,Engineering,2026-03-10,69.9,Software/Subscriptions,Approved
+18,130,Engineering,2025-03-10,186.74,Travel,Rejected
+19,169,Finance,2025-01-21,1933.69,Training/Conferences,Approved
+20,44,Engineering,2025-08-09,156.02,Travel,Approved
+21,40,Finance,2026-05-27,450.62,Travel,Approved
+22,78,Engineering,2026-02-13,1873.37,Travel,Approved
+23,13,Customer Support,2026-05-10,225.35,Software/Subscriptions,Approved
+24,104,Sales,2026-06-13,854.92,Software/Subscriptions,Approved
+25,213,Customer Support,2026-01-03,2322.38,Software/Subscriptions,Approved
+26,174,Engineering,2025-11-24,433.61,Client Entertainment,Approved
+27,13,Customer Support,2025-12-28,315.35,Training/Conferences,Pending
+28,197,Engineering,2026-07-08,343.94,Travel,Approved
+29,33,Engineering,2024-12-27,2050.57,Client Entertainment,Approved
+30,15,Customer Support,2026-03-19,1694.83,Training/Conferences,Pending
+31,32,Engineering,2026-03-29,557.24,Client Entertainment,Pending
+32,67,Finance,2026-05-17,390.22,Office Equipment,Approved
+33,111,Engineering,2026-02-16,25.82,Client Entertainment,Approved
+34,115,Sales,2026-03-25,134.59,Travel,Approved
+35,27,Sales,2025-07-20,1146.33,Software/Subscriptions,Approved
+36,85,Sales,2026-08-26,2040.04,Training/Conferences,Approved
+37,8,Engineering,2025-08-02,163.82,Office Equipment,Approved
+38,89,Engineering,2025-02-01,1106.66,Travel,Approved
+39,65,Finance,2026-03-01,68.51,Software/Subscriptions,Approved
+40,127,Sales,2024-12-07,204.48,Client Entertainment,Approved
+41,6,Engineering,2026-05-24,129.54,Travel,Approved
+42,36,Sales,2025-11-21,408.52,Software/Subscriptions,Approved
+43,220,Sales,2025-10-18,93.21,Training/Conferences,Approved
+44,117,Engineering,2026-04-22,15.47,Training/Conferences,Approved
+45,173,Sales,2025-03-21,2834.43,Travel,Approved
+46,167,Sales,2026-08-28,178.41,Travel,Approved
+47,163,Finance,2025-07-16,2350.57,Office Equipment,Approved
+48,82,Engineering,2025-02-03,352.16,Travel,Rejected
+49,119,Customer Support,2026-03-01,163.01,Travel,Approved
+50,94,Engineering,2026-01-07,322.96,Client Entertainment,Approved
+51,58,Sales,2026-06-06,440.02,Software/Subscriptions,Approved
+52,1,Sales,2024-10-05,327.81,Client Entertainment,Approved
+53,194,Marketing,2025-11-07,381.1,Office Equipment,Approved
+54,21,Marketing,2026-08-19,72.39,Software/Subscriptions,Rejected
+55,104,Sales,2025-10-02,405.2,Office Equipment,Pending
+56,3,Marketing,2025-10-15,221.73,Travel,Approved
+57,7,Engineering,2026-08-28,181.39,Office Equipment,Approved
+58,172,Engineering,2025-05-15,244.62,Client Entertainment,Approved
+59,77,Sales,2026-06-13,106.18,Software/Subscriptions,Pending
+60,109,Marketing,2025-07-12,244.72,Travel,Approved
+61,183,Sales,2026-08-20,277.79,Office Equipment,Approved
+62,36,Sales,2025-02-08,280.01,Office Equipment,Approved
+63,143,Marketing,2025-07-08,2198.17,Office Equipment,Rejected
+64,193,Sales,2026-06-22,275.45,Client Entertainment,Approved
+65,118,Engineering,2026-07-28,2847.51,Client Entertainment,Approved
+66,113,Engineering,2026-08-28,245.44,Travel,Approved
+67,13,Customer Support,2025-05-18,2796.79,Training/Conferences,Approved
+68,87,Customer Support,2025-04-18,424.25,Travel,Pending
+69,207,Marketing,2026-09-07,49.61,Travel,Approved
+70,47,Finance,2024-12-04,59.98,Software/Subscriptions,Approved
+71,8,Engineering,2026-07-04,405.84,Client Entertainment,Approved
+72,130,Engineering,2025-09-14,397.06,Travel,Approved
+73,65,Finance,2026-06-07,370.31,Training/Conferences,Approved
+74,162,Engineering,2024-12-02,190.49,Travel,Pending
+75,193,Sales,2025-02-08,2507.94,Travel,Approved
+76,171,Sales,2024-12-07,648.92,Client Entertainment,Approved
+77,105,Finance,2026-06-25,123.4,Software/Subscriptions,Approved
+78,183,Sales,2026-01-08,384.75,Client Entertainment,Pending
+79,173,Sales,2026-07-29,379.06,Travel,Approved
+80,91,Engineering,2025-01-19,1991.99,Client Entertainment,Approved
+81,54,Engineering,2025-02-07,134.17,Training/Conferences,Approved
+82,203,Customer Support,2025-04-09,385.62,Client Entertainment,Approved
+83,86,Customer Support,2026-03-10,365.78,Client Entertainment,Approved
+84,149,Customer Support,2025-02-28,295.55,Office Equipment,Approved
+85,3,Marketing,2026-08-05,41.65,Software/Subscriptions,Approved
+86,157,Engineering,2025-12-07,469.08,Training/Conferences,Approved
+87,56,Engineering,2025-09-15,1694.56,Office Equipment,Approved
+88,128,Engineering,2025-09-05,278.24,Client Entertainment,Approved
+89,82,Engineering,2025-03-16,2691.5,Software/Subscriptions,Rejected
+90,135,Customer Support,2024-10-04,337.35,Travel,Approved
+91,59,Customer Support,2025-09-05,189.8,Travel,Approved
+92,2,Sales,2024-12-15,272.93,Software/Subscriptions,Approved
+93,121,Sales,2026-05-23,182.36,Travel,Rejected
+94,55,Sales,2025-03-28,136.83,Travel,Approved
+95,154,Marketing,2025-04-19,2608.77,Travel,Rejected
+96,7,Engineering,2025-02-18,381.15,Office Equipment,Approved
+97,58,Sales,2025-06-03,188.14,Software/Subscriptions,Approved
+98,144,Engineering,2026-07-01,423.45,Training/Conferences,Approved
+99,40,Finance,2025-02-11,104.13,Training/Conferences,Approved
+100,102,Customer Support,2025-12-14,128.72,Software/Subscriptions,Approved
+101,172,Engineering,2026-04-02,84.08,Client Entertainment,Approved
+102,176,Customer Support,2025-02-07,465.3,Office Equipment,Pending
+103,58,Sales,2026-01-25,300.92,Office Equipment,Approved
+104,107,Engineering,2026-07-23,189.03,Office Equipment,Approved
+105,50,Engineering,2025-10-18,239.73,Software/Subscriptions,Rejected
+106,130,Engineering,2025-11-15,382.64,Travel,Approved
+107,58,Sales,2025-04-26,123.99,Travel,Approved
+108,117,Engineering,2026-05-09,2607.65,Training/Conferences,Approved
+109,23,Sales,2024-12-26,256.25,Travel,Approved
+110,12,Sales,2026-06-29,224.79,Software/Subscriptions,Approved
+111,101,Marketing,2025-08-21,26.49,Office Equipment,Approved
+112,72,Customer Support,2025-10-03,151.95,Client Entertainment,Approved
+113,152,Engineering,2025-07-11,60.76,Client Entertainment,Approved
+114,11,Sales,2025-09-07,1329.81,Software/Subscriptions,Approved
+115,215,Sales,2025-07-09,2014.04,Client Entertainment,Approved
+116,211,Engineering,2026-04-10,18.97,Office Equipment,Approved
+117,95,Engineering,2025-11-18,397.17,Office Equipment,Pending
+118,4,Finance,2026-03-09,457.44,Software/Subscriptions,Pending
+119,63,Engineering,2025-05-03,254.86,Travel,Pending
+120,212,Customer Support,2026-01-16,54.93,Software/Subscriptions,Pending
+121,118,Engineering,2025-12-02,224.24,Office Equipment,Approved
+122,102,Customer Support,2025-02-09,358.08,Travel,Approved
+123,183,Sales,2025-09-13,212.96,Office Equipment,Pending
+124,214,Customer Support,2026-04-04,287.93,Office Equipment,Approved
+125,10,Customer Support,2025-03-07,477.33,Training/Conferences,Approved
+126,169,Finance,2026-05-11,470.78,Training/Conferences,Approved
+127,108,Finance,2025-10-31,780.51,Travel,Approved
+128,124,Engineering,2025-08-08,769.74,Client Entertainment,Approved
+129,10,Customer Support,2026-06-10,101.81,Office Equipment,Approved
+130,106,Engineering,2025-05-27,258.84,Travel,Approved
+131,101,Marketing,2025-03-25,438.06,Software/Subscriptions,Approved
+132,30,Marketing,2025-12-03,46.97,Travel,Rejected
+133,57,Sales,2025-04-29,395.32,Travel,Approved
+134,45,Engineering,2025-08-14,248.65,Client Entertainment,Approved
+135,75,Customer Support,2025-02-24,398.43,Travel,Approved
+136,68,HR,2026-05-06,229.0,Software/Subscriptions,Approved
+137,207,Marketing,2026-07-24,227.18,Travel,Approved
+138,199,Engineering,2025-11-05,391.64,Office Equipment,Approved
+139,68,HR,2026-06-25,227.89,Travel,Rejected
+140,51,Sales,2025-01-06,454.74,Client Entertainment,Approved
+141,45,Engineering,2026-07-06,325.0,Travel,Approved
+142,203,Customer Support,2025-05-11,206.24,Office Equipment,Pending
+143,33,Engineering,2024-12-18,249.54,Training/Conferences,Pending
+144,113,Engineering,2025-06-16,35.76,Software/Subscriptions,Approved
+145,178,Engineering,2026-01-16,361.87,Client Entertainment,Pending
+146,109,Marketing,2025-06-14,2793.67,Travel,Approved
+147,210,Finance,2026-01-16,1875.59,Software/Subscriptions,Approved
+148,121,Sales,2025-07-13,94.32,Travel,Approved
+149,27,Sales,2025-02-05,196.75,Travel,Approved
+150,214,Customer Support,2025-07-07,1401.64,Travel,Approved
+151,10,Customer Support,2026-03-30,338.99,Training/Conferences,Pending
+152,143,Marketing,2026-08-07,196.64,Client Entertainment,Approved
+153,15,Customer Support,2024-11-19,371.71,Client Entertainment,Rejected
+154,102,Customer Support,2025-04-23,1559.99,Training/Conferences,Rejected
+155,93,Sales,2026-08-28,117.56,Office Equipment,Pending
+156,185,Customer Support,2025-03-21,1786.13,Travel,Pending
+157,89,Engineering,2025-04-13,449.46,Client Entertainment,Approved
+158,118,Engineering,2025-05-07,1315.19,Travel,Approved
+159,182,Finance,2025-11-03,117.34,Software/Subscriptions,Approved
+160,77,Sales,2025-10-13,2714.8,Client Entertainment,Approved
+161,215,Sales,2025-01-13,382.94,Client Entertainment,Rejected
+162,159,Engineering,2025-01-06,471.36,Travel,Approved
+163,188,Customer Support,2025-02-14,310.44,Training/Conferences,Pending
+164,88,Engineering,2026-08-14,170.82,Training/Conferences,Approved
+165,163,Finance,2026-03-08,123.08,Software/Subscriptions,Approved
+166,4,Finance,2026-06-24,72.69,Travel,Approved
+167,118,Engineering,2026-06-27,852.51,Office Equipment,Approved
+168,56,Engineering,2025-04-28,125.7,Travel,Approved
+169,122,Engineering,2025-09-02,1300.67,Office Equipment,Pending
+170,12,Sales,2025-11-29,149.13,Software/Subscriptions,Approved
+171,206,Customer Support,2025-06-06,40.14,Software/Subscriptions,Rejected
+172,68,HR,2025-05-16,192.39,Office Equipment,Approved
+173,122,Engineering,2024-12-06,47.54,Client Entertainment,Approved
+174,177,Engineering,2025-04-28,942.45,Training/Conferences,Approved
+175,57,Sales,2024-12-20,232.19,Travel,Approved
+176,55,Sales,2025-03-30,155.94,Travel,Approved
+177,177,Engineering,2026-02-05,2931.66,Travel,Approved
+178,47,Finance,2025-12-07,356.74,Software/Subscriptions,Pending
+179,132,Sales,2025-10-26,53.7,Travel,Rejected
+180,82,Engineering,2025-03-06,96.7,Client Entertainment,Approved
+181,85,Sales,2025-10-20,238.59,Software/Subscriptions,Approved
+182,200,Engineering,2025-03-08,16.94,Software/Subscriptions,Pending
+183,205,Sales,2026-02-16,208.36,Office Equipment,Approved
+184,209,Sales,2026-02-14,474.2,Software/Subscriptions,Approved
+185,11,Sales,2025-02-05,278.01,Training/Conferences,Approved
+186,120,Engineering,2025-09-22,242.21,Training/Conferences,Approved
+187,194,Marketing,2025-10-30,357.08,Travel,Approved
+188,10,Customer Support,2025-10-06,329.54,Training/Conferences,Approved
+189,180,Sales,2026-06-12,331.7,Travel,Approved
+190,169,Finance,2026-08-10,20.74,Client Entertainment,Pending
+191,179,Sales,2025-10-29,287.56,Office Equipment,Rejected
+192,142,Engineering,2025-12-08,1572.91,Training/Conferences,Approved
+193,137,Marketing,2026-08-06,287.53,Training/Conferences,Approved
+194,211,Engineering,2024-12-31,1935.8,Training/Conferences,Pending
+195,40,Finance,2025-05-03,200.06,Travel,Approved
+196,48,Sales,2024-10-02,2436.62,Office Equipment,Approved
+197,115,Sales,2025-12-16,1442.88,Client Entertainment,Approved
+198,55,Sales,2026-02-27,224.56,Software/Subscriptions,Pending
+199,52,Sales,2025-04-06,104.23,Travel,Rejected
+200,113,Engineering,2026-07-02,2094.72,Software/Subscriptions,Approved
+201,23,Sales,2025-07-11,583.87,Software/Subscriptions,Approved
+202,133,Engineering,2025-01-12,1172.54,Client Entertainment,Rejected
+203,185,Customer Support,2024-11-12,1810.61,Client Entertainment,Approved
+204,169,Finance,2025-06-30,235.05,Software/Subscriptions,Approved
+205,118,Engineering,2026-08-30,479.74,Software/Subscriptions,Pending
+206,99,Customer Support,2025-10-23,468.52,Client Entertainment,Pending
+207,27,Sales,2025-11-16,427.91,Travel,Approved
+208,169,Finance,2026-03-28,340.16,Travel,Pending
+209,101,Marketing,2026-09-03,235.97,Software/Subscriptions,Approved
+210,53,Engineering,2026-07-16,392.87,Travel,Approved
+211,99,Customer Support,2025-08-30,123.6,Training/Conferences,Approved
+212,208,Engineering,2024-12-23,451.67,Client Entertainment,Rejected
+213,130,Engineering,2025-01-11,151.65,Training/Conferences,Approved
+214,40,Finance,2026-05-09,348.25,Training/Conferences,Approved
+215,136,Customer Support,2025-08-05,478.28,Office Equipment,Rejected
+216,128,Engineering,2025-12-31,239.21,Travel,Approved
+217,67,Finance,2026-08-07,64.04,Travel,Rejected
+218,9,Engineering,2025-08-31,371.33,Travel,Approved
+219,70,Customer Support,2026-08-18,848.03,Client Entertainment,Approved
+220,203,Customer Support,2026-09-09,119.07,Software/Subscriptions,Approved
+221,167,Sales,2025-09-17,348.61,Travel,Approved
+222,105,Finance,2026-04-29,218.19,Client Entertainment,Approved
+223,71,Sales,2024-12-29,1357.19,Travel,Approved
+224,53,Engineering,2025-01-27,74.25,Office Equipment,Approved
+225,105,Finance,2024-10-02,289.38,Client Entertainment,Approved
+226,107,Engineering,2025-08-24,385.85,Training/Conferences,Rejected
+227,36,Sales,2026-06-09,64.56,Software/Subscriptions,Approved
+228,126,Sales,2025-07-31,247.42,Software/Subscriptions,Approved
+229,167,Sales,2026-08-13,399.9,Travel,Approved
+230,88,Engineering,2026-09-06,2992.15,Software/Subscriptions,Approved
+231,131,Engineering,2025-05-09,342.43,Client Entertainment,Approved
+232,92,Finance,2025-05-04,449.51,Travel,Approved
+233,207,Marketing,2025-04-02,353.24,Travel,Approved
+234,183,Sales,2025-03-13,269.79,Training/Conferences,Approved
+235,188,Customer Support,2025-09-22,196.84,Software/Subscriptions,Approved
+236,78,Engineering,2025-04-18,269.82,Travel,Approved
+237,89,Engineering,2026-05-18,40.17,Office Equipment,Rejected
+238,83,Finance,2025-03-17,220.48,Software/Subscriptions,Approved
+239,42,Sales,2025-04-19,19.25,Travel,Approved
+240,161,HR,2025-03-01,471.96,Travel,Approved
+241,48,Sales,2025-01-07,235.35,Training/Conferences,Rejected
+242,32,Engineering,2026-07-28,216.73,Training/Conferences,Approved
+243,202,Engineering,2024-11-04,1497.65,Software/Subscriptions,Approved
+244,166,Customer Support,2026-07-31,375.77,Training/Conferences,Rejected
+245,186,HR,2026-01-18,317.39,Client Entertainment,Approved
+246,182,Finance,2024-10-12,715.77,Software/Subscriptions,Approved
+247,186,HR,2025-05-19,1936.72,Training/Conferences,Approved
+248,75,Customer Support,2025-01-05,99.21,Client Entertainment,Approved
+249,180,Sales,2025-08-02,61.24,Office Equipment,Approved
+250,148,Customer Support,2024-10-21,395.12,Travel,Pending
+251,145,Customer Support,2026-03-16,265.63,Software/Subscriptions,Pending
+252,181,Engineering,2025-05-01,432.39,Travel,Approved
+253,167,Sales,2024-10-06,387.24,Client Entertainment,Approved
+254,36,Sales,2026-07-31,1910.62,Client Entertainment,Pending
+255,10,Customer Support,2025-02-05,184.06,Travel,Approved
+256,117,Engineering,2026-08-05,1258.49,Training/Conferences,Rejected
+257,142,Engineering,2025-07-28,221.89,Training/Conferences,Approved
+258,193,Sales,2025-09-26,252.42,Software/Subscriptions,Approved
+259,184,Sales,2025-05-31,862.75,Office Equipment,Pending
+260,60,Finance,2026-06-09,290.18,Training/Conferences,Approved
+261,205,Sales,2024-12-16,136.21,Client Entertainment,Approved
+262,46,Engineering,2024-12-25,329.58,Software/Subscriptions,Rejected
+263,40,Finance,2024-12-12,140.27,Software/Subscriptions,Approved
+264,180,Sales,2025-10-17,316.21,Travel,Approved
+265,46,Engineering,2025-03-07,381.32,Software/Subscriptions,Approved
+266,169,Finance,2025-07-04,783.88,Travel,Approved
+267,18,Marketing,2024-12-31,170.09,Software/Subscriptions,Approved
+268,62,Engineering,2025-01-09,465.48,Travel,Approved
+269,28,Engineering,2025-02-04,2323.54,Office Equipment,Approved
+270,134,Customer Support,2025-09-23,417.41,Travel,Approved
+271,170,Engineering,2024-11-19,2866.81,Travel,Approved
+272,95,Engineering,2026-08-26,262.23,Office Equipment,Approved
+273,112,Engineering,2025-02-08,334.3,Software/Subscriptions,Approved
+274,183,Sales,2025-10-23,139.33,Travel,Rejected
+275,178,Engineering,2025-06-13,209.48,Training/Conferences,Approved
+276,121,Sales,2026-01-23,143.26,Training/Conferences,Approved
+277,200,Engineering,2025-05-23,413.93,Training/Conferences,Rejected
+278,113,Engineering,2025-01-01,50.66,Office Equipment,Approved
+279,25,Customer Support,2024-11-28,1221.77,Travel,Rejected
+280,3,Marketing,2025-12-09,448.59,Training/Conferences,Approved
+281,136,Customer Support,2026-08-25,339.52,Software/Subscriptions,Approved
+282,172,Engineering,2024-10-08,341.71,Travel,Approved
+283,67,Finance,2026-08-09,397.86,Training/Conferences,Pending
+284,145,Customer Support,2024-11-13,463.56,Client Entertainment,Approved
+285,214,Customer Support,2025-05-19,1423.96,Software/Subscriptions,Approved
+286,97,Customer Support,2025-12-07,94.28,Training/Conferences,Rejected
+287,93,Sales,2025-06-13,410.61,Training/Conferences,Pending
+288,80,Engineering,2025-07-28,16.04,Travel,Approved
+289,108,Finance,2025-08-09,461.0,Travel,Approved
+290,11,Sales,2026-06-25,41.74,Training/Conferences,Approved
+291,126,Sales,2025-09-28,1380.81,Software/Subscriptions,Approved
+292,111,Engineering,2025-01-12,106.86,Software/Subscriptions,Approved
+293,44,Engineering,2026-02-12,2425.92,Software/Subscriptions,Approved
+294,129,Engineering,2025-08-03,429.87,Software/Subscriptions,Approved
+295,73,Customer Support,2025-12-24,219.3,Travel,Approved
+296,210,Finance,2025-10-03,344.79,Software/Subscriptions,Approved
+297,78,Engineering,2025-11-09,169.01,Travel,Approved
+298,185,Customer Support,2026-02-03,472.06,Travel,Approved
+299,134,Customer Support,2026-08-30,166.07,Client Entertainment,Pending
+300,111,Engineering,2025-11-03,2894.62,Software/Subscriptions,Pending
+301,36,Sales,2026-02-25,2214.25,Travel,Approved
+302,94,Engineering,2026-06-04,216.96,Software/Subscriptions,Approved
+303,133,Engineering,2025-12-14,85.91,Travel,Approved
+304,68,HR,2025-01-26,477.33,Travel,Approved
+305,118,Engineering,2025-01-14,248.59,Travel,Approved
+306,165,Engineering,2025-03-02,76.52,Client Entertainment,Approved
+307,54,Engineering,2025-12-11,1007.11,Training/Conferences,Pending
+308,105,Finance,2025-08-10,470.76,Software/Subscriptions,Approved
+309,118,Engineering,2026-03-07,39.02,Software/Subscriptions,Approved
+310,100,Engineering,2025-09-25,129.84,Travel,Pending
+311,51,Sales,2024-11-23,164.56,Travel,Approved
+312,77,Sales,2025-01-12,132.3,Training/Conferences,Approved
+313,92,Finance,2025-01-08,332.58,Software/Subscriptions,Pending
+314,37,Sales,2025-10-06,288.84,Software/Subscriptions,Approved
+315,65,Finance,2025-05-04,55.56,Client Entertainment,Approved
+316,176,Customer Support,2025-02-01,2921.14,Office Equipment,Pending
+317,53,Engineering,2025-12-31,49.82,Travel,Approved
+318,94,Engineering,2026-01-29,108.93,Software/Subscriptions,Approved
+319,13,Customer Support,2025-12-03,132.42,Travel,Pending
+320,157,Engineering,2025-10-10,348.56,Training/Conferences,Rejected
+321,19,Sales,2026-03-21,249.3,Software/Subscriptions,Approved
+322,167,Sales,2025-02-10,459.45,Travel,Approved
+323,193,Sales,2025-11-12,262.6,Travel,Approved
+324,21,Marketing,2026-03-06,377.41,Travel,Approved
+325,74,Engineering,2024-10-04,1052.34,Travel,Approved
+326,141,Marketing,2026-03-22,411.4,Software/Subscriptions,Approved
+327,73,Customer Support,2025-03-25,263.11,Client Entertainment,Approved
+328,178,Engineering,2025-07-12,140.75,Travel,Pending
+329,179,Sales,2025-05-04,15.65,Training/Conferences,Approved
+330,169,Finance,2025-08-29,2266.6,Training/Conferences,Approved
+331,202,Engineering,2026-06-19,473.15,Travel,Approved
+332,3,Marketing,2025-05-13,145.06,Office Equipment,Approved
+333,6,Engineering,2026-05-21,2366.97,Software/Subscriptions,Approved
+334,182,Finance,2026-07-04,271.16,Travel,Pending
+335,61,Finance,2025-04-27,390.6,Software/Subscriptions,Pending
+336,44,Engineering,2025-12-19,434.51,Software/Subscriptions,Approved
+337,51,Sales,2025-03-30,1731.39,Software/Subscriptions,Approved
+338,180,Sales,2025-08-14,952.56,Travel,Approved
+339,170,Engineering,2025-02-24,1120.68,Travel,Rejected
+340,112,Engineering,2026-03-24,2378.61,Travel,Approved
+341,27,Sales,2024-10-22,543.74,Software/Subscriptions,Pending
+342,13,Customer Support,2024-12-25,451.45,Travel,Approved
+343,3,Marketing,2025-01-17,395.49,Training/Conferences,Pending
+344,23,Sales,2026-02-04,429.96,Travel,Pending
+345,85,Sales,2025-03-08,267.74,Software/Subscriptions,Approved
+346,152,Engineering,2024-11-15,1248.88,Travel,Approved
+347,115,Sales,2025-05-18,1573.57,Travel,Approved
+348,182,Finance,2026-09-01,426.16,Travel,Pending
+349,30,Marketing,2025-01-21,459.76,Software/Subscriptions,Approved
+350,21,Marketing,2025-01-30,444.99,Client Entertainment,Approved
+351,13,Customer Support,2025-04-01,170.7,Client Entertainment,Approved
+352,117,Engineering,2026-08-15,305.51,Travel,Approved
+353,28,Engineering,2026-02-24,448.79,Travel,Pending
+354,199,Engineering,2024-10-03,469.79,Office Equipment,Pending
+355,42,Sales,2025-11-04,385.54,Software/Subscriptions,Rejected
+356,19,Sales,2025-12-12,144.49,Travel,Approved
+357,36,Sales,2025-10-30,244.81,Travel,Approved
+358,114,Sales,2026-07-14,388.0,Client Entertainment,Approved
+359,67,Finance,2026-04-16,263.2,Software/Subscriptions,Approved
+360,63,Engineering,2026-05-18,260.03,Software/Subscriptions,Pending
+361,210,Finance,2024-12-29,16.33,Travel,Rejected
+362,6,Engineering,2026-01-29,443.22,Software/Subscriptions,Approved
+363,96,Finance,2025-02-20,82.03,Software/Subscriptions,Pending
+364,116,Customer Support,2025-05-18,853.13,Travel,Rejected
+365,196,Engineering,2024-10-27,212.49,Travel,Approved
+366,29,Customer Support,2024-12-15,291.18,Client Entertainment,Approved
+367,42,Sales,2024-12-20,20.8,Software/Subscriptions,Pending
+368,115,Sales,2025-04-05,80.15,Travel,Approved
+369,82,Engineering,2025-09-11,314.85,Software/Subscriptions,Approved
+370,30,Marketing,2026-07-20,2380.32,Travel,Approved
+371,3,Marketing,2025-12-08,422.33,Software/Subscriptions,Approved
+372,71,Sales,2026-02-26,120.7,Training/Conferences,Rejected
+373,74,Engineering,2026-03-19,457.25,Training/Conferences,Approved
+374,111,Engineering,2025-05-13,397.46,Client Entertainment,Rejected
+375,169,Finance,2026-09-10,160.63,Office Equipment,Approved
+376,105,Finance,2025-10-16,105.55,Travel,Approved
+377,21,Marketing,2025-09-09,1212.7,Software/Subscriptions,Approved
+378,18,Marketing,2024-10-12,158.74,Travel,Approved
+379,178,Engineering,2025-06-04,469.15,Training/Conferences,Approved
+380,158,HR,2026-02-08,1293.3,Training/Conferences,Rejected
+381,3,Marketing,2025-07-17,247.6,Training/Conferences,Approved
+382,108,Finance,2025-02-10,60.28,Office Equipment,Approved
+383,208,Engineering,2026-02-27,84.84,Software/Subscriptions,Approved
+384,105,Finance,2024-11-08,85.47,Software/Subscriptions,Approved
+385,175,Engineering,2025-05-26,390.48,Travel,Approved
+386,215,Sales,2026-02-26,353.86,Office Equipment,Approved
+387,215,Sales,2025-02-12,182.55,Software/Subscriptions,Pending
+388,119,Customer Support,2026-08-31,112.1,Travel,Approved
+389,21,Marketing,2026-05-04,246.35,Training/Conferences,Pending
+390,40,Finance,2025-08-13,465.56,Office Equipment,Pending
+391,24,Engineering,2026-01-09,449.34,Software/Subscriptions,Approved
+392,77,Sales,2025-09-27,956.17,Client Entertainment,Pending
+393,71,Sales,2025-06-20,220.55,Training/Conferences,Rejected
+394,33,Engineering,2026-02-12,2648.92,Training/Conferences,Approved
+395,173,Sales,2025-02-10,253.3,Training/Conferences,Approved
+396,87,Customer Support,2026-08-30,224.29,Software/Subscriptions,Pending
+397,189,Customer Support,2026-07-22,2478.57,Travel,Approved
+398,157,Engineering,2025-01-16,88.57,Travel,Approved
+399,20,Engineering,2026-01-17,177.26,Travel,Approved
+400,146,Engineering,2026-01-20,958.88,Training/Conferences,Approved
+401,109,Marketing,2025-04-23,44.98,Office Equipment,Approved
+402,169,Finance,2026-01-31,1641.9,Software/Subscriptions,Approved
+403,129,Engineering,2025-05-07,29.57,Travel,Approved
+404,105,Finance,2025-10-06,470.03,Travel,Approved
+405,59,Customer Support,2026-09-01,132.21,Training/Conferences,Approved
+406,40,Finance,2025-11-19,2685.7,Travel,Approved
+407,116,Customer Support,2026-08-17,100.6,Software/Subscriptions,Approved
+408,118,Engineering,2025-08-01,1379.7,Software/Subscriptions,Approved
+409,130,Engineering,2025-03-14,218.1,Software/Subscriptions,Rejected
+410,160,Customer Support,2024-10-11,430.61,Software/Subscriptions,Approved
+411,203,Customer Support,2026-06-24,2163.52,Client Entertainment,Pending
+412,206,Customer Support,2025-08-21,2742.29,Office Equipment,Rejected
+413,136,Customer Support,2025-01-25,328.38,Training/Conferences,Approved
+414,202,Engineering,2026-01-05,413.63,Travel,Approved
+415,178,Engineering,2025-01-08,2366.81,Training/Conferences,Approved
+416,194,Marketing,2025-03-20,115.5,Software/Subscriptions,Approved
+417,53,Engineering,2026-05-14,187.17,Training/Conferences,Approved
+418,83,Finance,2026-02-27,73.01,Training/Conferences,Approved
+419,125,Finance,2025-09-26,267.25,Software/Subscriptions,Approved
+420,214,Customer Support,2025-03-30,188.5,Software/Subscriptions,Approved
+421,46,Engineering,2025-10-26,321.72,Software/Subscriptions,Approved
+422,177,Engineering,2026-06-28,436.24,Travel,Approved
+423,24,Engineering,2025-01-15,550.9,Office Equipment,Rejected
+424,28,Engineering,2026-07-01,61.36,Software/Subscriptions,Approved
+425,162,Engineering,2026-08-15,210.6,Office Equipment,Approved
+426,125,Finance,2025-01-26,1679.24,Client Entertainment,Approved
+427,127,Sales,2026-07-23,359.64,Software/Subscriptions,Approved
+428,102,Customer Support,2026-03-04,424.02,Office Equipment,Approved
+429,115,Sales,2024-10-05,207.77,Client Entertainment,Approved
+430,44,Engineering,2026-03-16,293.97,Office Equipment,Approved
+431,160,Customer Support,2025-06-05,196.98,Training/Conferences,Approved
+432,108,Finance,2026-05-15,451.82,Office Equipment,Approved
+433,205,Sales,2025-08-22,218.39,Travel,Approved
+434,36,Sales,2026-07-09,197.29,Software/Subscriptions,Pending
+435,71,Sales,2025-03-12,109.75,Office Equipment,Approved
+436,120,Engineering,2026-05-31,2049.07,Travel,Approved
+437,22,Marketing,2024-10-26,75.7,Client Entertainment,Approved
+438,176,Customer Support,2025-04-10,432.53,Office Equipment,Approved
+439,148,Customer Support,2025-10-23,321.55,Office Equipment,Approved
+440,40,Finance,2026-07-16,418.13,Client Entertainment,Approved
+441,166,Customer Support,2025-02-23,430.99,Travel,Approved
+442,135,Customer Support,2025-05-01,243.33,Office Equipment,Approved
+443,20,Engineering,2026-07-03,2221.47,Software/Subscriptions,Approved
+444,87,Customer Support,2026-01-05,98.61,Client Entertainment,Approved
+445,50,Engineering,2026-07-09,29.62,Client Entertainment,Rejected
+446,95,Engineering,2026-06-21,17.33,Software/Subscriptions,Approved
+447,70,Customer Support,2025-04-16,264.22,Training/Conferences,Approved
+448,213,Customer Support,2025-10-09,1050.22,Travel,Approved
+449,61,Finance,2026-09-09,139.43,Travel,Approved
+450,25,Customer Support,2026-04-18,232.18,Software/Subscriptions,Pending
+451,120,Engineering,2025-11-14,131.29,Software/Subscriptions,Approved
+452,200,Engineering,2025-11-07,2484.95,Travel,Approved
+453,47,Finance,2026-02-12,222.46,Office Equipment,Approved
+454,74,Engineering,2026-06-30,1463.78,Office Equipment,Approved
+455,97,Customer Support,2026-07-10,223.97,Software/Subscriptions,Pending
+456,139,Finance,2025-11-24,399.41,Travel,Approved
+457,145,Customer Support,2024-10-31,2524.51,Software/Subscriptions,Approved
+458,52,Sales,2024-12-14,187.82,Software/Subscriptions,Approved
+459,87,Customer Support,2025-08-23,348.31,Travel,Approved
+460,159,Engineering,2025-05-27,194.3,Office Equipment,Approved
+461,144,Engineering,2026-04-28,297.68,Travel,Pending
+462,186,HR,2026-07-24,366.63,Travel,Approved
+463,88,Engineering,2024-11-20,246.87,Travel,Rejected
+464,116,Customer Support,2026-01-07,1323.92,Travel,Approved
+465,161,HR,2024-10-19,413.09,Travel,Rejected
+466,127,Sales,2025-11-17,1838.33,Travel,Approved
+467,93,Sales,2024-12-11,400.88,Client Entertainment,Approved
+468,83,Finance,2025-09-20,273.75,Travel,Approved
+469,171,Sales,2025-08-02,226.38,Travel,Pending
+470,33,Engineering,2026-06-25,1067.8,Office Equipment,Pending
+471,39,Sales,2025-08-27,351.78,Travel,Approved
+472,24,Engineering,2025-10-13,264.96,Travel,Approved
+473,192,Sales,2025-06-23,35.03,Training/Conferences,Approved
+474,83,Finance,2025-09-03,383.11,Travel,Approved
+475,194,Marketing,2025-02-19,70.75,Travel,Approved
+476,42,Sales,2025-11-28,325.73,Office Equipment,Approved
+477,66,Engineering,2026-08-09,145.45,Client Entertainment,Pending
+478,132,Sales,2025-06-28,345.79,Travel,Approved
+479,67,Finance,2025-04-29,49.94,Client Entertainment,Approved
+480,59,Customer Support,2025-05-10,194.05,Travel,Approved
+481,94,Engineering,2026-05-28,253.98,Travel,Approved
+482,86,Customer Support,2026-08-03,1766.23,Office Equipment,Rejected
+483,61,Finance,2025-10-30,418.55,Training/Conferences,Approved
+484,219,Engineering,2024-12-10,91.35,Software/Subscriptions,Approved
+485,161,HR,2025-02-28,64.84,Client Entertainment,Approved
+486,6,Engineering,2025-04-10,236.45,Training/Conferences,Approved
+487,97,Customer Support,2026-04-17,1584.37,Travel,Approved
+488,137,Marketing,2025-09-07,1188.75,Software/Subscriptions,Approved
+489,181,Engineering,2025-12-07,981.73,Software/Subscriptions,Approved
+490,75,Customer Support,2026-02-18,65.77,Software/Subscriptions,Approved
+491,68,HR,2025-05-13,2738.7,Training/Conferences,Approved
+492,66,Engineering,2025-01-12,425.41,Travel,Approved
+493,112,Engineering,2025-01-12,398.19,Software/Subscriptions,Approved
+494,135,Customer Support,2025-04-27,148.92,Travel,Approved
+495,206,Customer Support,2025-04-08,340.72,Travel,Approved
+496,85,Sales,2026-09-05,161.53,Training/Conferences,Approved
+497,52,Sales,2026-01-10,541.71,Software/Subscriptions,Approved
+498,92,Finance,2025-06-28,94.39,Travel,Pending
+499,3,Marketing,2026-01-29,242.06,Client Entertainment,Approved
+500,30,Marketing,2024-10-18,475.54,Travel,Pending
